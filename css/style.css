@@ -27,7 +27,6 @@ body {
     font-size: 14px;
     line-height: 18px;
     color: #5e5e5e;
-
 }
 
 header{
@@ -47,7 +46,7 @@ header{
     padding: 5px 20px 4px 50px;
 }
 
-.header__btn:after {
+.header__contacts:after {
     content: "";
     clear: both;
     display: block;
@@ -63,4 +62,40 @@ header{
 .header__phone {
     padding-left: 20px;
     padding-right: 30px;
+}
+
+.header__phone:before {
+    content: "\f095";
+    font-family: 'icomoon';
+}
+
+
+.header__content {
+    padding: 34px 0px 23px;
+}
+
+.header__content-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: #323232;
+    font-size: 16px;
+    line-height: 36px;
+    border: 1px solid transparent;
+    padding: 0 16px;
+    transition: all 0.3s;
+}
+
+.menu a:hover {
+    border-color: #ffc222;
+}
+
+.menu li + li {
+    padding-left: 10px;
 }
