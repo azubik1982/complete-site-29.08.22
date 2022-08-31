@@ -2,18 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header">
@@ -24,7 +25,7 @@
               >+375 29 000 00 00</a
             >
             <a class="header__email" href="#">azubik1982@gmail.com</a>
-            <a class="header__btn" href="#">Бесплатная консультация</a>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Бесплатная консультация</a>
           </div>
         </div>
       </div>
@@ -48,5 +49,54 @@
         </div>
       </div>
     </header>
+    <section class="slider">
+      <div class="container">
+        <div class="slider__inner">
+          <div class="slider__item">
+            <div class="slider__title">
+              КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+            </div>
+            <div class="slider__text">
+              Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+            </div>
+            <div class="slider__btn">
+              Оставить заявку
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__title">
+              КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+            </div>
+            <div class="slider__text">
+              Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+            </div>
+            <div class="slider__btn">
+              Оставить заявку
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__title">
+              КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+            </div>
+            <div class="slider__text">
+              Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+            </div>
+            <div class="slider__btn">
+              Оставить заявку
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="modal">
+      <h2>Hello!</h2>
+      <p>You are awesome!</p>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
   </body>
 </html>
