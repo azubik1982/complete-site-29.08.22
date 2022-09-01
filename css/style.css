@@ -162,18 +162,6 @@ header{
     margin-bottom: 50px;
 }
 
-/* .slider__btn {
-    display: inline-block;
-    line-height: 24px;
-    font-size: 14px;
-    color: #ffff;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    padding: 8px 30px 8px 24px;
-    border: 1px solid #ffc222;
-    border-right-width: 20px;
-} */
-
 .default-btn {
     display: inline-block;
     line-height: 24px;
@@ -244,4 +232,28 @@ header{
 
 .slick-prev:before {
     content: "\f104";
+}
+
+.about {
+    padding: 50px 0px 30px;
+}
+
+.about__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title-box {
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+}
+
+.about__title-box:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffc222;
+    left: 0;
 }
