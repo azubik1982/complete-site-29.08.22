@@ -1,26 +1,26 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-a {
+a{
     text-decoration: none;
     display: inline-block;
 }
 
-ul,li {
+ul,li{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.container {
+.container{
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 
-body {
+body{
     font-family: 'PT Serif', serif;
     /* font-family: 'Roboto', sans-serif; */
     font-weight: 400;
@@ -33,11 +33,11 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
-.header__top {
+.header__top{
     background-color: #303030;
 }
 
-.header__btn {
+.header__btn{
     float: right;
     line-height: 36px;
     font-size: 16px;
@@ -47,7 +47,7 @@ header{
     position: relative;
 }
 
-.header__btn:before {
+.header__btn:before{
     content: "\f0b1";
     font-family: 'icomoon';
     position: absolute;
@@ -55,26 +55,26 @@ header{
     color: #1b1b1b;
 }
 
-.header__contacts:after {
+.header__contacts:after{
     content: "";
     clear: both;
     display: block;
 }
 
 .header__phone,
-.header__email {
+.header__email{
     color: #acabac;
     letter-spacing: 0,25px;
     line-height: 45px;
     position: relative;
 }
 
-.header__phone {
+.header__phone{
     padding-left: 20px;
     padding-right: 30px;
 }
 
-.header__phone:before {
+.header__phone:before{
     content: "\f095";
     font-family: 'icomoon';
     position: absolute;
@@ -82,11 +82,11 @@ header{
     color: #ffc222;
 }
 
-.header__email {
+.header__email{
     padding-left: 24px;
 }
 
-.header__email:before {
+.header__email:before{
     content: "\f003";
     font-family: 'icomoon';
     position: absolute;
@@ -95,20 +95,20 @@ header{
 
 }
 
-.header__content {
+.header__content{
     padding: 34px 0px 23px;
 }
 
-.header__content-inner {
+.header__content-inner{
     display: flex;
     justify-content: space-between;
 }
 
-.menu li {
+.menu li{
     display: inline-block;
 }
 
-.menu a {
+.menu a{
     color: #323232;
     font-size: 16px;
     line-height: 36px;
@@ -117,19 +117,19 @@ header{
     transition: all 0.3s;
 }
 
-.menu a:hover {
+.menu a:hover{
     border-color: #ffc222;
 }
 
-.menu li + li {
+.menu li + li{
     padding-left: 10px;
 }
 
-#modal {
+#modal{
     display: none;
 }
 
-.slider {
+.slider{
     background-image: url(../img/slider-fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,14 +137,14 @@ header{
     min-height: 500px;
 }
 
-.slider__item-content {
+.slider__item-content{
     text-align: center;
     padding-top: 110px;
     max-width: 665px;
     margin: 0 auto;
 }
 
-.slider__title {
+.slider__title{
     text-transform: uppercase;
     font-size: 30px;
     line-height: 36px;
@@ -155,14 +155,14 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
-.slider__text {
+.slider__text{
     line-height: 24px;
     font-size: 18px;
     color: #d3d2d2;
     margin-bottom: 50px;
 }
 
-.default-btn {
+.default-btn{
     display: inline-block;
     line-height: 24px;
     font-size: 14px;
@@ -176,7 +176,7 @@ header{
     outline: none;
 }
 
-.default-btn:after {
+.default-btn:after{
     content: "\f105";
     font-family: 'icomoon';
     position: absolute;
@@ -185,30 +185,29 @@ header{
     right: -12px;
 }
 
-.slider__inner {
+.slider__inner{
     position: relative;
 }
 
 
-.slick-btn {
+.slick-btn{
     position: absolute;
     top: 70%;
     z-index: 3;
     width: 40px;
     height: 40px;
     border: 1px solid #ffff;
-
     cursor: pointer;
     outline: none;
     background-color: #ffc222;
 }
 
-.slick-btn.slick-disabled {
+.slick-btn.slick-disabled{
     cursor: default;
     background-color: transparent;
 }
 
-.slick-btn:before {
+.slick-btn:before{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -217,43 +216,72 @@ header{
     color: #ffff;
 }
 
-
-.slick-next {
+.slick-next{
     right: 0;
 }
 
-.slick-next:before {
+.slick-next:before{
     content: "\f105";
 }
 
-.slick-prev {
+.slick-prev{
     left: 0;
 }
 
-.slick-prev:before {
+.slick-prev:before{
     content: "\f104";
 }
 
-.about {
+.about{
     padding: 50px 0px 30px;
 }
 
-.about__top {
+.about__top{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
-.about__title-box {
+.about__title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.about__title-box:before {
+.about__title-box:before{
     content: "";
     position: absolute;
     width: 100px;
     height: 2px;
     background-color: #ffc222;
     left: 0;
+    top: 11px;
+}
+
+.about-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212020;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.about-text{
+    letter-spacing: 0.1px;
+}
+
+.about__btn a{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #373636;
+    padding: 5px 38px;
+    border: 3px solid #e6e6e6;
+    cursor: pointer;
+    outline: none;
+}
+
+.about__item{
+    max-width: 360px;
 }
