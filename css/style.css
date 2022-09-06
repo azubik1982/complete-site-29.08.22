@@ -43,6 +43,7 @@ header{
     background-color: #ffc222;
     padding: 5px 20px 4px 50px;
     position: relative;
+    display: block;
 }
 .header__btn:before{
     content: "\f0b1";
@@ -91,6 +92,10 @@ header{
 .header__content-inner{
     display: flex;
     justify-content: space-between;
+}
+.header__btn-menu{
+    display: none;
+    font-size: 28px;
 }
 .menu li{
     display: inline-block;
@@ -611,6 +616,11 @@ header{
 }
 .footer__map{
     padding-top: 10px;
+    max-width: 630px;
+    width: 100%;
+}
+.footer__map iframe{
+    width: 100%;
 }
 .footer__title{
     font-family: 'Roboto', sans-serif;
