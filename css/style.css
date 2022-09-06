@@ -394,7 +394,6 @@ header{
     right: 17px;
     transform: rotate(90deg);
     top: 0px;
-
 }
 .form__box-inner .jq-selectbox li {
 	min-height: 18px;
@@ -668,4 +667,23 @@ header{
     padding: 8px 0;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
+}
+#modal{
+    width: 300px;
+}
+#modal input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0 10px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+#modal input[type="submit"]{
+    background-color: #ffc222;
+    border: none;
 }
